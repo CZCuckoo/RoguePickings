@@ -1,0 +1,191 @@
+/***** BASE STYLES *****/
+
+@font-face {
+font-family: Wisdom Script;
+src: url('../fonts/Wisdom Script.otf') format('opentype');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+  text-align: left;
+  width: auto;
+  float: left;
+  padding: 15px 0;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: black;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 110px;
+  width: 100%;
+  margin: 0;
+}
+
+header span {
+  color: #77a466;
+}
+
+header nav {
+  float: right;
+  padding: 45px 0px;
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0 10px;
+  color:#77a466;
+}
+
+/***** TOP SECTION *****/
+
+.top-section {
+  margin: 0px 0px 30px 0px;
+
+}
+
+.top-section h2 {
+  color: #77a466;
+  font-size: 19px;
+}
+
+.top-section p {
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+img {
+  border-top: solid #77a466 3px;
+  border-bottom: solid #77a466 3px;
+}
+
+
+/***** BOTTOM SECTION *****/
+
+.bottom-section {
+  width: 100%;
+}
+
+.bottom-left {
+  float: left;
+  height: auto;
+  width: 33%;
+  margin: 0 auto;
+  border-top: 1px solid #dedbdc;
+}
+
+.bottom-middle {
+  float: left;
+  height: auto;
+  width: 33%;
+  margin: 0 auto;
+  border-top: 1px solid #dedbdc;
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+
+.bottom-right {
+  float: left;
+  height: auto;
+  width: 33%;
+  margin: 0 auto;
+  border-top: 1px solid #dedbdc;
+}
+
+.bottom-section h3 {
+  padding-top: 10px;
+}
+
+.bottom-section ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.bottom-section li {
+  font-size: 16px;
+  color: #77a466;
+  padding: 10px 0px;
+}
+
+.bottom-middle h3 {
+  padding: 10px 30px;
+  line-height: 25px;
+}
+
+.bottom-middle p {
+  padding: 0px 30px;
+  line-height: 21px;
+}
+
+.bottom-right h3 {
+  padding: 0px 30px;
+  line-height: 25px;
+}
+
+.bottom-right p {
+  padding: 0px 30px;
+  line-height: 25px;
+}
+
+
+/***** FOOTER *****/
+
+
+
+footer {
+  width: 100%;
+  height: 50px;
+  border-top:1px solid #dedbdc;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+}
+
+footer span {
+  font-family: "Wisdom Script", script;
+  text-transform: lowercase;
+  color: #77a466;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/***
+COLORS USED
+
+green
+77a466
+
+grey
+dedbdc
+
+***/
